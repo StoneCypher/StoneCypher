@@ -31,6 +31,16 @@ There are essentially five major topics in website speed.
 
 
 
+
+# TL;DR
+
+We need to make the site feel fast.  Local issues, like the JavaScript making poor algorithmic choices, can cause individual actions to feel slow.  Binding those actions to a webserver in the background is guaranteed to feel slow; putting it in the background with AJAX and third-state controls can ameliorate that.  The initial load should be fast, probably from CDN with a static pre-build if that's plausible.  Making sure delivery is fast is paramount.  Many small tricks, such as using animations to make lag feel like a design choice, can make big shifts.
+
+The big wins will come from dispatching an entire site in a single load, then having all other loads after that be API hits and virtual page switches.  With a careful eye, this can render websites which verge on native apps for performance, without requiring extensive aggresive architectural changes like COMET.
+
+
+
+
 ## Justification
 
 Retention.  Quality of user experience.  Perceived better-than wrt competition.  Factored into Panda.  Etc.
