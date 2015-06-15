@@ -20,6 +20,9 @@ Lessons
 
 To Add
 ------
+
+These are not yet in any particular order
+
 1. The conceptual
   1. Git/github mini-refresher
   1. Gulp
@@ -41,6 +44,9 @@ To Add
     1. Unit
     1. E2E
     1. Stochastic
+  1. Minification and concatenation
+  1. Setting up LESS
+  1. Setting up an emoji transform for twemoji
   1. Internationalization
     1. Continuous integration w/ (travis or circle?  preference or cost `:(` )
   1. Making charts
