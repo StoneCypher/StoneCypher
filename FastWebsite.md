@@ -85,6 +85,7 @@ Let's get specific.
     1. All fonts have sensible fallbacks
     1. Holy god get your caching and etags right
     1. Use HTTP2 (or SPDY or websockets or WebRTC or whatever) to reduce protocol impact
+      1. HTTP2 obviates (and actually makes undesirable) packaging, but only to a small-ish degree, and if you're at the point where this kind of work makes sense, the low current penetration of HTTP2 makes fallback too common for the strategy switch *just* *yet*
 
   1. Reduce the impact of the initial load
     1. Deliver an isomorphic materialized initial state
